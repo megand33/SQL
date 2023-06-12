@@ -1,0 +1,22 @@
+--Create a store database
+
+CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER, price INTEGER);
+
+INSERT INTO inventory VALUES (1, "Bananas", 4, 7, .69);
+INSERT INTO inventory VALUES (2, "Potatoes", 4 ,7, 2);
+INSERT INTO inventory VALUES (3, "Carrots", 10, 7, 2);
+INSERT INTO inventory VALUES (4, "Apples", 20, 7, 5);
+INSERT INTO inventory VALUES (5, "Blueberries", 50, 7, 5);
+INSERT INTO inventory VALUES (6, "Flour", 10, 5, 2);
+INSERT INTO inventory VALUES (7, "Sugar", 15, 5, 2);
+INSERT INTO inventory VALUES (8, "Baking Soda", 5, 5, 1);
+INSERT INTO inventory VALUES (9, "Salt", 8, 5,1);
+INSERT INTO inventory VALUES (10, "Baking Pan", 10, 5, 18);
+INSERT INTO inventory VALUES (11, "Oil", 10, 5, 3);
+INSERT INTO inventory VALUES (12, "Chocolate Chips", 8, 5, 3);
+INSERT INTO inventory VALUES (13, "Rice", 9, 4, 2);
+INSERT INTO inventory VALUES (14, "Butter", 25, 1, 6);
+INSERT INTO inventory VALUES (15, "Milk", 25, 1, 5);
+
+--Display all from inventory list
+SELECT * FROM inventory
